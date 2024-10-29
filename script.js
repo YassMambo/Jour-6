@@ -1,7 +1,7 @@
 // script.ts
 // Fonction pour mettre à jour l'utilisateur
 function updateUser() {
-    // Récupérer les valeurs des champs de saisie
+    // Récupérer les valeurs des champs
     var name = document.getElementById('userName').value;
     var age = parseInt(document.getElementById('userAge').value);
     var email = document.getElementById('userEmail').value;

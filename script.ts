@@ -9,7 +9,7 @@ interface User {
 
 // Fonction pour mettre à jour l'utilisateur
 function updateUser(): void {
-    // Récupérer les valeurs des champs de saisie
+    // Récupérer les valeurs des champs
     const name = (document.getElementById('userName') as HTMLInputElement).value;
     const age = parseInt((document.getElementById('userAge') as HTMLInputElement).value);
     const email = (document.getElementById('userEmail') as HTMLInputElement).value;
